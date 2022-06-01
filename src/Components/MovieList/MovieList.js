@@ -1,6 +1,6 @@
 import React from 'react'
 import MovieCrad from '../MovieCard/MovieCrad'
-import "./MovieList.css"
+
 
 const MovieList = ({movies,deleteMovie}) => {
   return (
