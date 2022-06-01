@@ -18,22 +18,21 @@
   flex: 1;
   padding-bottom: 1em;
   border-bottom: solid 1px lightgray;
-  font-weight: 600;
-  font-size: 0.8em;
-  color: gray;
+  font-weight:bold;
+  font-size:large;
+  color: rgb(160, 15, 15);
   cursor: pointer;
+
 }
 li:hover {
   color: rgb(242, 73, 183);
-  border-bottom-color: rgb(112, 242, 231);
-  border-bottom-width: 2px;
+  border-bottom-color: rgb(242, 73, 183);
+  
 }
 .List {
-  display: grid;
-  flex-wrap: nowrap;
-  margin-left: 250px;
-  margin-top: 50px;
-  border-radius: 50px;
+  display:grid;
+ background-color:rgb(240, 233, 233);
+  
 }
 .carousel {
   height: 500px;
