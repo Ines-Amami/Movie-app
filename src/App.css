@@ -29,8 +29,6 @@ li:hover {
   border-bottom-width: 2px;
 }
 .List {
-  width: 1470px;
-  border-style: outset;
   display: grid;
   flex-wrap: nowrap;
   margin-left: 250px;
