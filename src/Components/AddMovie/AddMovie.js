@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./AddMovie.css";
 import { Button } from "react-bootstrap";
 import Modal from "react-bootstrap/Modal";
 import "bootstrap/dist/css/bootstrap.min.css";
