@@ -1,0 +1,113 @@
+.topnav {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2em;
+  list-style-type: none;
+}
+
+.op {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-bottom: 1em;
+  border-bottom: solid 1px lightgray;
+  font-weight: 600;
+  font-size: 0.8em;
+  color: gray;
+  cursor: pointer;
+}
+li:hover {
+  color: rgb(242, 73, 183);
+  border-bottom-color: rgb(112, 242, 231);
+  border-bottom-width: 2px;
+}
+.List {
+  width: 1470px;
+  border-style: outset;
+  display: grid;
+  flex-wrap: nowrap;
+  margin-left: 250px;
+  margin-top: 50px;
+  border-radius: 50px;
+}
+.carousel {
+  height: 500px;
+}
+img {
+  height: 500px;
+}
+
+.info {
+  display: flex;
+  justify-content: flex-end;
+}
+.movie-info {
+  background-color: black;
+  border-style: outset;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-transform: uppercase;
+  color: white;
+  width: 500px;
+  margin-left: 10em;
+}
+h1 {
+  font-size: 3.8em;
+  line-height: 1.2;
+}
+.genre {
+  list-style: none;
+
+  display: flex;
+
+  justify-content: flex-start;
+  margin-bottom: 1.5em;
+}
+li {
+  padding-right: 0.9em;
+  padding-left: 0.8em;
+  font-size: 0.75em;
+}
+
+button {
+  cursor: pointer;
+  border: 1px;
+  padding: 1em 1.5em;
+  border-radius: 20px;
+  background: yellow;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.75em;
+  margin-bottom: 8.5em;
+  display: flex;
+  align-items: center;
+}
+h3,
+h4 {
+  font-weight: 200;
+}
+h3 {
+  text-transform: initial;
+}
+h4 {
+  color: yellow;
+}
+.Bnt {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.Bt {
+  color: antiquewhite;
+  text-transform: uppercase;
+  height: 70px;
+  width: 150px;
+}
